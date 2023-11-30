@@ -1,3 +1,6 @@
+"""
+NOTE: Python does not have increment and decrement operators ( ++,--)
+"""
 # Arrays in python
 list = ["Thawfeek",1,2,3,"Yahya"]
 for i in list: print(i)
