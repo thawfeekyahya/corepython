@@ -1,7 +1,26 @@
+import array as Array
+
 """
 NOTE: Python does not have increment and decrement operators ( ++,--)
 """
 # Arrays in python
+
+"""
+Array type codes
+b -> signed int     // 1 byte             \n        
+B -> unsigned int   // 1 byte             \n       
+i -> signed int     // 2 byte             \n       
+I -> unsigned int   // 2 byte             \n       
+l -> signed int     // 4 byte             \n       
+L -> unsigned int   // 4 byte             \n       
+f -> floating point // 4 byte             \n        
+d -> double precision floating // 8 byte  \n    
+u -> unicode charcter // 2 byte           \n  
+
+"""
+a = Array.array("i",[4,5,6,7])
+
+# lists in python
 list = ["Thawfeek",1,2,3,"Yahya"]
 for i in list: print(i)
 
