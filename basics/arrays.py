@@ -67,3 +67,10 @@ s.remove(30)
 dict = {"Thawfeek":35,"Sarah":5,"Hamzah":1,"Yasmin":30}
 print(dict)
 print("Thawfeek age is ->",dict["Thawfeek"])
+
+
+# Deleting a element from array using 'del' keyword
+
+list1 = [1,2,3,4,5]
+del list1[3]
+print(list1)
